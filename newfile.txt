@@ -1,2 +1,15 @@
 hi i am abhay
 this is changed file
+"""
+    Auto-populate book related information when a book is selected.
+
+    This method is triggered when the `book_id` field changes in the form view.
+    It automatically fills the following fields based on the selected book:
+
+        - isbn: Sets the ISBN number from the selected book
+        - publication_date: Sets the publication date from the selected book
+        - price: Sets the price from the selected book
+
+    This improves user experience by reducing manual data entry and ensures
+    consistency between Author Book records and Library Book records.
+    """
